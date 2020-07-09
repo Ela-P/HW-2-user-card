@@ -1,8 +1,7 @@
 body {
     margin: 0;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .user-account{
     text-align: center;
     width: 400px;
@@ -21,7 +20,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .user-photo img {
     height: 100%;
 }
-
 .user-name {
     font-size: 1em;
     margin: 0.5em;
@@ -35,7 +33,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .info-separator {
     padding: 0 2px;
 }
-.message-activ {
+.click-message {
     text-align: center;
     font-size: 0.875em;
     width: 60%;
@@ -44,9 +42,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     max-width: 200px;
     padding: 0.5em 1em;
     margin: 0 auto;
+    border-radius: 0.5em;
     display: block;
-    border-radius: 0.5em;}
-button {
+}
+button{
     border: none;
     background: transparent;
 }
